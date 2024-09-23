@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Blog của tôi</h1>
+</header>
+
+<div class="container">
+    <article>
+        <h2>Tôi là người mới đến</h2>
+        <small>Ngày đăng: 23/09/2024 - Tác giả: Đỗ Gia Long</small>
+        <p>Xin chào! Đây là lần đầu tôi dùng HTML</p>
+
+        <!-- Bình luận của bài viết 1 -->
+        <div class="comments">
+            <h3>Bình luận</h3>
+
+            <!-- Bình luận 1 -->
+            <blockquote>
+                <strong>Người dùng 1:</strong>
+                <p>Chào mừng đến với HTML.</p>
+            </blockquote>
+
+            <!-- Bình luận 2 -->
+            <blockquote>
+                <strong>Người dùng 2:</strong>
+                <p>Cố gắng lên nhé!</p>
+            </blockquote>
+
+            <!-- Form để nhập bình luận mới -->
+            <form>
+                <label for="name">Tên của bạn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Nội dung bình luận:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <input type="submit" value="Gửi bình luận">
+            </form>
+        </div>
+    </article>
+</div>
+
+</body>
+</html>
